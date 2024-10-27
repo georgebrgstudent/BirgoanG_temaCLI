@@ -19,8 +19,7 @@ Bîrgoan George 3133b
    - `GL.PointSize(float)` mărește dimensiunea punctelor trasate.  
    - Aceste comenzi nu pot fi folosite în interiorul secvenței `GL.Begin()`.
 
-4. **Răspundeți la următoarele întrebări (utilizați ca referință eventual și tutorii OpenGL Nate Robbins):**
-
+4. 
    - **Care este efectul utilizării directivei LineLoop atunci când sunt desenate segmente de dreaptă multiple în OpenGL?**  
      `GL.LineLoop` creează un set de linii continue în care punctul final al unei linii devine punctul de pornire pentru următoarea, iar la sfârșit se leagă primul și ultimul punct, formând o buclă.
 
