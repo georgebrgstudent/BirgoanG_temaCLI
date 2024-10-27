@@ -1,6 +1,6 @@
 Laborator 3
 
-Bîrgoan George 3123b
+Bîrgoan George 3133b
 ---
 
 1. **Care este ordinea de desenare a vertexurilor pentru aceste metode (orar sau anti-orar)? Desenați axele de coordonate din aplicația-template folosind un singur apel GL.Begin().**
