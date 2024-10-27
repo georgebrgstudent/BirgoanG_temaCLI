@@ -40,3 +40,9 @@ Bîrgoan George 3133b
 7. **Ce reprezintă un gradient de culoare? Cum se obține acesta în OpenGL?**
 
    Un gradient de culoare este o tranziție treptată între două sau mai multe culori. Acesta poate fi realizat în OpenGL atribuind culori diferite vertexurilor unui poligon, permițând culorilor să se amestece între ele.
+
+8. Ce este transparența în OpenGL?
+Transparența în OpenGL este gestionată prin intermediul canalului alpha, care poate lua valori între 0 și 1. O valoare de 0 indică transparență totală, în timp ce o valoare de 1 reprezintă opacitate completă. Acest canal de transparență permite crearea unor efecte vizuale de suprapunere, astfel încât obiectele aflate în fundal devin vizibile prin cele din prim-plan.
+
+10. Efectul utilizării unei culori diferite pentru fiecare vertex
+Atunci când se aplică culori distincte fiecărui vertex într-un mod strip sau în timpul desenării triunghiurilor, OpenGL realizează o interpolare a culorilor între aceste vertexuri. Aceasta înseamnă că, pe suprafața obiectului, se va crea un gradient de tranziție între nuanțele respective, oferind un aspect mai fluid și estetic.
